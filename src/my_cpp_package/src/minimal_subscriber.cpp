@@ -1,7 +1,7 @@
 #include "my_cpp_package/minimal_subscriber.hpp"
 
 PointCloud2Subscriber::PointCloud2Subscriber(const rclcpp::NodeOptions & options)
-: Node("pointcloud2_subscriber", rclcpp::NodeOptions().use_intra_process_comms(true))
+: Node("pointcloud2_subscriber", rclcpp::NodeOptions().use_intra_process_comms(true).append_with_node_defaults(options))
 {
   subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
     "pointcloud",  // Replace with your topic name

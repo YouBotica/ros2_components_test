@@ -1,7 +1,7 @@
 #include "my_cpp_package/minimal_publisher.hpp"
 
 PointCloudPublisher::PointCloudPublisher(const rclcpp::NodeOptions & options)
-: Node("pointcloud_publisher", rclcpp::NodeOptions().use_intra_process_comms(true))
+: Node("pointcloud_publisher", rclcpp::NodeOptions().use_intra_process_comms(true).append_with_node_defaults(options))
 {
   publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("pointcloud", 10);
   timer_ = this->create_wall_timer(

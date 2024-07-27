@@ -1,2 +1,0 @@
-/usr/bin/ar qc libiris_data_interface.a CMakeFiles/iris_data_interface.dir/src/interface/iris_data_interface.cpp.o
-/usr/bin/ranlib libiris_data_interface.a

@@ -1,6 +1,0 @@
-Invoking command in '/home/artificial/bags_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/artificial/bags_ws/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/artificial/bags_ws/install/my_cpp_package
-Invoked command in '/home/artificial/bags_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/artificial/bags_ws/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/artificial/bags_ws/install/my_cpp_package
-Invoking command in '/home/artificial/bags_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/my_cpp_package -- -j16 -l16
-Invoked command in '/home/artificial/bags_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/my_cpp_package -- -j16 -l16
-Invoking command in '/home/artificial/bags_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/artificial/bags_ws/build/my_cpp_package
-Invoked command in '/home/artificial/bags_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/artificial/bags_ws/build/my_cpp_package
