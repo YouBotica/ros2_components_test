@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiris_control_interface.a CMakeFiles/iris_control_interface.dir/src/interface/iris_control_interface.cpp.o
+/usr/bin/ranlib libiris_control_interface.a

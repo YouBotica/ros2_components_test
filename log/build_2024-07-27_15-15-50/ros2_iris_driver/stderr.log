@@ -1,0 +1,1 @@
+/usr/bin/ld: warning: libboost_thread.so.1.74.0, needed by /home/artificial/bags_ws/src/ros2_iris_driver/ros2_iris_driver/lib/vsomeip/lib/libvsomeip3.so, may conflict with libboost_thread.so.1.71.0
