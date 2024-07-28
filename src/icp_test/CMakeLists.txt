@@ -9,6 +9,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(rosbag2_cpp REQUIRED)
+find_package(rosbag2_storage_default_plugins REQUIRED)
 
 # add include directories
 include_directories(include)
@@ -29,6 +31,13 @@ target_include_directories(ipc_subscriber PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
+add_library(ipc_recorder src/ipc_recorder.cpp)
+ament_target_dependencies(ipc_recorder rclcpp std_msgs rosbag2_cpp rosbag2_storage_default_plugins)
+target_include_directories(ipc_recorder PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>
+)
+
 # Create executable for component manager
 add_executable(ipc_main src/ipc_main.cpp)
 ament_target_dependencies(ipc_main rclcpp std_msgs)
@@ -36,12 +45,13 @@ target_include_directories(ipc_main PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
-target_link_libraries(ipc_main ipc_publisher ipc_subscriber)
+target_link_libraries(ipc_main ipc_publisher ipc_subscriber ipc_recorder)
 
 install(
   TARGETS
     ipc_publisher
     ipc_subscriber
+    ipc_recorder
     ipc_main
   DESTINATION lib/${PROJECT_NAME}
 )
