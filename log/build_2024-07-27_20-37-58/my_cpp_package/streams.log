@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/artificial/bags_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/my_cpp_package -- -j16 -l16
+[0.036s] [ 33%] Built target pointcloud_publisher_component
+[0.036s] [ 66%] Built target pointcloud_subscriber_component
+[0.053s] [100%] Built target component_manager
+[0.060s] Invoked command in '/home/artificial/bags_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/my_cpp_package -- -j16 -l16
+[0.078s] Invoking command in '/home/artificial/bags_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/artificial/bags_ws/build/my_cpp_package
+[0.082s] -- Install configuration: ""
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/launch
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/launch/test.launch.py
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/launch/bags.launch.py
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/param
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/param/bags.param.yaml
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/my_cpp_package/my_cpp_package/lib/libpointcloud_publisher_component.so
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/my_cpp_package/my_cpp_package/lib/libpointcloud_subscriber_component.so
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/my_cpp_package/my_cpp_package/lib/component_manager
+[0.083s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[0.084s] -- Installing: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/package.dsv
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/ament_index/resource_index/rclcpp_components/my_cpp_package
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[0.084s] -- Up-to-date: /home/artificial/bags_ws/install/my_cpp_package/share/my_cpp_package/package.xml
+[0.089s] Invoked command in '/home/artificial/bags_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/artificial/bags_ws/build/my_cpp_package

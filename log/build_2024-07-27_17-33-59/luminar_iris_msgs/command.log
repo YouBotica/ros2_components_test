@@ -1,0 +1,6 @@
+Invoking command in '/home/artificial/bags_ws/build/luminar_iris_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/artificial/bags_ws/src/ros2_iris_driver/luminar_iris_msgs -DCMAKE_INSTALL_PREFIX=/home/artificial/bags_ws/install/luminar_iris_msgs
+Invoked command in '/home/artificial/bags_ws/build/luminar_iris_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/artificial/bags_ws/src/ros2_iris_driver/luminar_iris_msgs -DCMAKE_INSTALL_PREFIX=/home/artificial/bags_ws/install/luminar_iris_msgs
+Invoking command in '/home/artificial/bags_ws/build/luminar_iris_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/luminar_iris_msgs -- -j16 -l16
+Invoked command in '/home/artificial/bags_ws/build/luminar_iris_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/luminar_iris_msgs -- -j16 -l16
+Invoking command in '/home/artificial/bags_ws/build/luminar_iris_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/artificial/bags_ws/build/luminar_iris_msgs
+Invoked command in '/home/artificial/bags_ws/build/luminar_iris_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/artificial/bags_ws/build/luminar_iris_msgs

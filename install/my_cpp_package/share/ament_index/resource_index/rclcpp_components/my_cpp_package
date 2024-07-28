@@ -1,0 +1,2 @@
+my_cpp_package::PointCloudPublisher;lib/libpointcloud_publisher_component.so
+my_cpp_package::PointCloud2Subscriber;lib/libpointcloud_subscriber_component.so

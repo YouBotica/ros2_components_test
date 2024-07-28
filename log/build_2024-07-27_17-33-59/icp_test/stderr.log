@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/ipc_main.dir/src/ipc_main.cpp.o: in function `void __gnu_cxx::new_allocator<Producer>::construct<Producer, char const (&) [9], char const (&) [7]>(Producer*, char const (&) [9], char const (&) [7])':
+ipc_main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8ProducerE9constructIS1_JRA9_KcRA7_S4_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8ProducerE9constructIS1_JRA9_KcRA7_S4_EEEvPT_DpOT0_]+0xc9): undefined reference to `Producer::Producer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/ipc_main.dir/src/ipc_main.cpp.o: in function `void __gnu_cxx::new_allocator<Consumer>::construct<Consumer, char const (&) [9], char const (&) [7]>(Consumer*, char const (&) [9], char const (&) [7])':
+ipc_main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8ConsumerE9constructIS1_JRA9_KcRA7_S4_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8ConsumerE9constructIS1_JRA9_KcRA7_S4_EEEvPT_DpOT0_]+0xc9): undefined reference to `Consumer::Consumer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ipc_main.dir/build.make:159: ipc_main] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ipc_main.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

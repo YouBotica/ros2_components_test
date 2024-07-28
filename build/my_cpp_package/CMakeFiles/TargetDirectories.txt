@@ -1,0 +1,12 @@
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/uninstall.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/my_cpp_package_uninstall.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/pointcloud_publisher_component.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/pointcloud_subscriber_component.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/component_manager.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/test.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/edit_cache.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/rebuild_cache.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/list_install_components.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/install.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/install/local.dir
+/home/artificial/bags_ws/build/my_cpp_package/CMakeFiles/install/strip.dir

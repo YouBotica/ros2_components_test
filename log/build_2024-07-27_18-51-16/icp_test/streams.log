@@ -1,0 +1,22 @@
+[0.005s] Invoking command in '/home/artificial/bags_ws/build/icp_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/icp_test -- -j16 -l16
+[0.017s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.100s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.120s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.121s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.170s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.170s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.294s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.294s]   ament_target_dependencies() the passed package name 'ipc_publisher' was not
+[0.295s]   found before
+[0.295s] Call Stack (most recent call first):
+[0.295s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.295s] 
+[0.295s] [0m
+[0.295s] -- Configuring incomplete, errors occurred!
+[0.295s] See also "/home/artificial/bags_ws/build/icp_test/CMakeFiles/CMakeOutput.log".
+[0.298s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.302s] Invoked command in '/home/artificial/bags_ws/build/icp_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artificial/bags_ws/build/icp_test -- -j16 -l16
