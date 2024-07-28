@@ -1,6 +1,0 @@
-{
-  "package_name": "luminar_iris_msgs",
-  "non_idl_tuples": [
-    "/home/artificial/bags_ws/src/ros2_iris_driver/luminar_iris_msgs:msg/SensorHealth.msg"
-  ]
-}

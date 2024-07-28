@@ -1,2 +1,0 @@
-/usr/bin/ar qc libipc_subscriber.a CMakeFiles/ipc_subscriber.dir/src/ipc_subscriber.cpp.o
-/usr/bin/ranlib libipc_subscriber.a

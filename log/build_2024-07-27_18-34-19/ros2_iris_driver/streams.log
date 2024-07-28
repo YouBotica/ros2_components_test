@@ -1,4 +1,0 @@
-[0.004s] Invoking command in '/home/artificial/bags_ws/build/ros2_iris_driver': AMENT_PREFIX_PATH=/home/artificial/bags_ws/install/luminar_iris_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/artificial/bags_ws/install/luminar_iris_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/artificial/bags_ws/install/luminar_iris_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/blasfeo/lib:/opt/hpipm/lib:/usr/local/lib:/usr/lib PYTHONPATH=/home/artificial/bags_ws/install/luminar_iris_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/artificial/bags_ws/build/ros2_iris_driver -- -j16 -l16
-[0.029s] [ 33%] Built target iris_control_interface
-[0.034s] [ 66%] Built target iris_data_interface
-[0.050s] [100%] Built target iris_ros_driver

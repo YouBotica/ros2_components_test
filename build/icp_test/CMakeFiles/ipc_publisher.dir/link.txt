@@ -1,2 +1,0 @@
-/usr/bin/ar qc libipc_publisher.a CMakeFiles/ipc_publisher.dir/src/ipc_publisher.cpp.o
-/usr/bin/ranlib libipc_publisher.a
